@@ -15,31 +15,34 @@
 
   /* Header  */
 
-header{
+.contact{
     display: flex;
     flex-direction: row;
     gap: 150px;
 
 }
 
-ul{
+.contact1{
     display: flex;
     flex-direction: row;
     list-style: none;
     gap: 50px
     
 }
-ul li{
+.contact2{
+    display: flex;
     white-space: nowrap;
+    flex-direction: row;
+    gap: 50px;
 }
 
-li span{
+.contact2 span{
     border-bottom: 2px solid #717CFF;
 }
 
-.button1{
+.contact3 button{
     display: flex;
-    padding: 0 3%;
+    padding: 10px 30px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -339,9 +342,10 @@ li span{
     gap: 250px;
 }
 
-.toe button{
+.toe2 button{
     border: none;
-    padding: 5px 10px;
+    white-space: nowrap;
+    padding: 15px 20px;
     background-color: #717CFF;
     border-radius: 10px;
 }
